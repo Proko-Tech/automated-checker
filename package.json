@@ -13,6 +13,7 @@
     "dotenv": "^9.0.2",
     "knex": "^0.95.5",
     "mysql": "^2.18.1",
-    "node-schedule": "^2.0.0"
+    "node-schedule": "^2.0.0",
+    "stripe": "^8.149.0"
   }
 }
