@@ -7,7 +7,7 @@ function startScript(){
             const updateJson = {
                 alive_status: false,
             };
-            await lotsModel.updateLotAndSpot3MinsNoUpdate(updateJs
+            await lotsModel.updateLotAndSpot3MinsNoUpdate(updateJson);
         } catch (err){
             console.log(err);
         }
