@@ -8,7 +8,6 @@ function startScript(){
                 alive_status: false,
             };
             await lotsModel.updateLotAndSpot3MinsNoUpdate(updateJson);
-            console.log('done update')
         } catch (err){
             console.log(err);
         }
